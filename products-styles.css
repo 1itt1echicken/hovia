@@ -420,3 +420,203 @@
         font-size: 0.95rem;
     }
 }
+
+/* ===== PRODUCTS MOBILE RESPONSIVE (768px and below) ===== */
+@media (max-width: 768px) {
+    .products-hero {
+        padding: 2rem 5%;
+    }
+
+    .products-hero::before {
+        width: 200px;
+        height: 200px;
+        top: -5%;
+        right: -10%;
+    }
+
+    .products-hero::after {
+        width: 150px;
+        height: 150px;
+        bottom: -5%;
+        left: -10%;
+    }
+
+    .products-hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .products-hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .products-hero-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .products-section {
+        padding: 2rem 5% 1.5rem;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .coming-soon-placeholder span {
+        font-size: 1.5rem;
+    }
+
+    .product-content {
+        padding: 1rem;
+    }
+
+    .product-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .product-subtitle {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-desc {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
+    }
+
+    .product-features li {
+        font-size: 0.75rem;
+    }
+
+    .contact-cta {
+        padding: 2rem 5%;
+    }
+
+    .contact-cta::before {
+        width: 200px;
+        height: 200px;
+        top: 20%;
+    }
+
+    .contact-cta::after {
+        width: 150px;
+        height: 150px;
+        bottom: 20%;
+    }
+
+    .cta-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .cta-content p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.85rem;
+    }
+}
+
+/* ===== SMALL PHONES (480px and below) ===== */
+@media (max-width: 480px) {
+    .products-hero {
+        padding: 1.5rem 3%;
+    }
+
+    .products-hero::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .products-hero::after {
+        width: 120px;
+        height: 120px;
+    }
+
+    .products-hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .products-hero-content p {
+        font-size: 0.8rem;
+    }
+
+    .products-hero-stats {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .stat-number {
+        font-size: 1.6rem;
+    }
+
+    .products-section {
+        padding: 1.5rem 3% 1rem;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .product-image {
+        height: 150px;
+    }
+
+    .coming-soon-placeholder span {
+        font-size: 1.2rem;
+    }
+
+    .product-content {
+        padding: 0.8rem;
+    }
+
+    .product-content h3 {
+        font-size: 1rem;
+    }
+
+    .product-subtitle {
+        font-size: 0.65rem;
+    }
+
+    .product-desc {
+        font-size: 0.75rem;
+    }
+
+    .product-features li {
+        font-size: 0.7rem;
+    }
+
+    .contact-cta {
+        padding: 1.5rem 3%;
+    }
+
+    .cta-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .cta-content p {
+        font-size: 0.8rem;
+    }
+
+    .cta-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.8rem;
+    }
+}
