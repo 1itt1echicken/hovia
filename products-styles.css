@@ -419,3 +419,208 @@
         font-size: 0.95rem;
     }
 }
+
+/* ===== เพิ่มส่วนนี้ที่ท้าย products-styles.css เดิมของคุณ ===== */
+
+/* Tablet & Half Screen (768px to 1200px) */
+@media (max-width: 1200px) {
+    .products-hero {
+        padding: 3rem 3%;
+    }
+
+    .products-hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .products-hero-content p {
+        font-size: 1rem;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .product-image {
+        height: 280px;
+    }
+
+    .product-content {
+        padding: 1.4rem;
+    }
+
+    .product-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile (480px to 767px) */
+@media (max-width: 767px) {
+    .products-hero {
+        padding: 2rem 2%;
+    }
+
+    .products-hero-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .products-hero-content p {
+        font-size: 0.9rem;
+        margin: 0 auto 2rem;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .product-image {
+        height: 250px;
+    }
+
+    .product-content {
+        padding: 1.2rem;
+    }
+
+    .product-content h3 {
+        font-size: 1rem;
+    }
+
+    .product-subtitle {
+        font-size: 0.75rem;
+    }
+
+    .product-desc {
+        font-size: 0.85rem;
+    }
+
+    .product-features li {
+        font-size: 0.8rem;
+    }
+
+    .products-hero-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .contact-cta {
+        padding: 2.5rem 2%;
+    }
+
+    .cta-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .cta-content p {
+        font-size: 0.95rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small (below 480px) */
+@media (max-width: 479px) {
+    .products-hero {
+        padding: 1.5rem 2%;
+    }
+
+    .products-hero::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .products-hero::after {
+        width: 120px;
+        height: 120px;
+    }
+
+    .products-hero-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .products-hero-content p {
+        font-size: 0.8rem;
+        margin: 0 auto 1.5rem;
+    }
+
+    .products-container {
+        gap: 1rem;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .coming-soon-placeholder span {
+        font-size: 1.4rem;
+    }
+
+    .product-content {
+        padding: 1rem;
+    }
+
+    .product-content h3 {
+        font-size: 0.95rem;
+    }
+
+    .product-desc {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .product-features li {
+        font-size: 0.75rem;
+        padding-left: 1rem;
+    }
+
+    .spec-label {
+        font-size: 0.65rem;
+    }
+
+    .spec-value {
+        font-size: 0.8rem;
+    }
+
+    .contact-cta {
+        padding: 1.5rem 2%;
+    }
+
+    .contact-cta::before {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-cta::after {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cta-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .cta-content p {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.85rem;
+    }
+}

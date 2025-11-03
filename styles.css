@@ -630,3 +630,376 @@ nav a:hover {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 }
+
+/* ===== เพิ่มส่วนนี้ที่ท้าย styles.css เดิมของคุณ ===== */
+
+/* Tablet & Half Screen (768px to 1200px) */
+@media (max-width: 1200px) {
+    nav {
+        padding: 0.8rem 3%;
+    }
+
+    .logo-image {
+        width: 120px;
+        height: 40px;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    .hero {
+        padding: 3rem 3%;
+        gap: 2rem;
+    }
+
+    .hero-image img {
+        height: 300px;
+        max-width: 400px;
+    }
+
+    .care-sense-left,
+    .care-sense-box {
+        padding: 2rem 3%;
+    }
+
+    .care-sense-image img {
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .care-sense-box {
+        min-height: auto;
+        padding: 2rem 3%;
+    }
+
+    .contact-container {
+        gap: 2rem;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+
+    .team-grid {
+        gap: 1.5rem;
+    }
+
+    .member-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .member-photo img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Mobile (480px to 767px) */
+@media (max-width: 767px) {
+    nav {
+        padding: 0.6rem 2%;
+        gap: 0.5rem;
+    }
+
+    nav ul {
+        gap: 0.5rem;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .logo-image {
+        width: 90px;
+        height: 30px;
+    }
+
+    nav a {
+        font-size: 0.75rem;
+    }
+
+    .lang-dropdown {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 2rem 2%;
+        gap: 1rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero-content p {
+        font-size: 0.85rem;
+    }
+
+    .hero-image img {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    .mission {
+        padding: 2.5rem 2%;
+    }
+
+    .mission h2 {
+        font-size: 1.8rem;
+    }
+
+    .mission p {
+        font-size: 0.85rem;
+        margin-top: 1rem;
+    }
+
+    .care-sense-wrapper {
+        flex-direction: column;
+    }
+
+    .care-sense-left {
+        padding: 1.5rem 2%;
+    }
+
+    .care-sense-left h3 {
+        font-size: 1.6rem;
+    }
+
+    .care-sense-image img {
+        height: 250px;
+        max-width: 100%;
+    }
+
+    .care-sense-box {
+        padding: 1.5rem 2%;
+        min-height: auto;
+    }
+
+    .care-sense-box h3 {
+        font-size: 1.4rem;
+    }
+
+    .care-sense-box h4 {
+        font-size: 1rem;
+    }
+
+    .care-sense-box p {
+        font-size: 0.85rem;
+    }
+
+    .feature-item {
+        font-size: 0.85rem;
+    }
+
+    .team {
+        padding: 2.5rem 2%;
+    }
+
+    .team h2 {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .member-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .member-photo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-member h4 {
+        font-size: 0.8rem;
+    }
+
+    .team-member p {
+        font-size: 0.7rem;
+    }
+
+    .contact {
+        padding: 2.5rem 2%;
+        background: linear-gradient(to bottom, #d0e8e3 0%, white 100%);
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contact-form h3,
+    .contact-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .form-group textarea {
+        min-height: 100px;
+    }
+
+    .submit-btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .info-item {
+        font-size: 0.9rem;
+    }
+
+    .social-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+}
+
+/* Extra small (below 480px) */
+@media (max-width: 479px) {
+    nav {
+        padding: 0.5rem 2%;
+    }
+
+    nav ul {
+        gap: 0.3rem;
+    }
+
+    .logo-image {
+        width: 70px;
+        height: 24px;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+    }
+
+    .lang-dropdown {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.4rem;
+    }
+
+    .hero {
+        padding: 1.5rem 2%;
+        gap: 1rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+    }
+
+    .hero-image img {
+        height: 200px;
+    }
+
+    .mission {
+        padding: 2rem 2%;
+    }
+
+    .mission h2 {
+        font-size: 1.4rem;
+    }
+
+    .mission p {
+        font-size: 0.8rem;
+    }
+
+    .care-sense-left h3 {
+        font-size: 1.4rem;
+    }
+
+    .care-sense-image img {
+        height: 200px;
+    }
+
+    .care-sense-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .care-sense-box h4 {
+        font-size: 0.95rem;
+    }
+
+    .care-sense-box p {
+        font-size: 0.8rem;
+    }
+
+    .feature-item {
+        font-size: 0.8rem;
+    }
+
+    .team h2 {
+        font-size: 1.4rem;
+    }
+
+    .team-grid {
+        gap: 0.8rem;
+    }
+
+    .member-photo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .member-photo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-member h4 {
+        font-size: 0.75rem;
+    }
+
+    .team-member p {
+        font-size: 0.65rem;
+    }
+
+    .contact-form h3,
+    .contact-info h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    .form-group textarea {
+        min-height: 80px;
+    }
+
+    .info-item {
+        font-size: 0.85rem;
+    }
+
+    .social-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
+    }
+}
