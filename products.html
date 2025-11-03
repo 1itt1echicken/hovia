@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Hovia System & Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products-styles.css">
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web\css\all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="Hovia_logo.png" alt="Hovia Logo" class="logo-image">
+            </a>
+            <ul>
+                <li><a href="index.html" data-i18n="home">Home</a></li>
+                <li><a href="#products" data-i18n="products">Products</a></li>
+                <li><a href="index.html#about" data-i18n="aboutUs">About Us</a></li>
+                <li><a href="index.html#contact" data-i18n="contactUs">Contact Us</a></li>
+                <li>
+                    <select class="lang-dropdown" onchange="changeLanguage(this.value)">
+                        <option value="en">🇺🇸 English</option>
+                        <option value="th" selected>🇹🇭 ไทย</option>
+                        <!--<option value="ja">🇯🇵 日本語</option>
+                        <option value="zh">🇨🇳 中文</option>
+                        <option value="ko">🇰🇷 한국어</option>-->
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products-hero" id="products">
+        <div class="products-hero-content">
+            <h2 data-i18n="productsTitle">Our Products</h2>
+            <p data-i18n="productsDescription">Discover our innovative IoT solutions designed to enhance elderly care with safety, comfort, and independence.</p>
+        </div>
+    </section>
+
+    <!-- All Products Grid -->
+    <section class="products-section">
+        <div class="products-container">
+            <!-- Product 1: Care Sense -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Care Sense.jpg" alt="Care Sense">
+                </div>
+                <div class="product-content">
+                    <h3>Care Sense</h3>
+                    <p class="product-subtitle" data-i18n="fallDetection">Non-wearable Fall Detection Device</p>
+                    <p class="product-desc" data-i18n="careDescription">Care Sense is a non-wearable fall detection device that combines IoT technology with compassionate elderly care. Our system detects falls within 15 seconds and immediately alerts family members and caregivers through mobile applications and speaker notifications.</p>
+                    
+                    <h4 data-i18n="feature">Features:</h4>
+                    <ul class="product-features">
+                        <li><span class="feature-bullet">•</span> <span data-i18n="noCamera">No camera</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="alert">Alert by speaker and mobile application</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="battery">Battery usage 1 week/cycle</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="internet">Still work without internet</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="seconds">Alert in 15 seconds after fall is detected</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Product 2: Smart Home Monitor -->
+             
+            <div class="product-card">
+                <div class="product-image">
+                    <!--<img src="" alt="Coming soon">-->
+                    <div class="product-image coming-soon-placeholder">
+                        <span>Coming soon</span>
+                    </div>
+                </div>
+                <div class="product-content">
+                    <h3>Coming soon</h3>
+                    <!--
+                    <p class="product-subtitle" data-i18n=""></p>
+                    <p class="product-desc" data-i18n=" "></p>
+                    
+                    <h4 data-i18n="feature">Features:</h4>
+                    <ul class="product-features">
+                        <li><span class="feature-bullet">•</span> <span data-i18n="aiPowered">AI-powered activity analysis</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="realTime">Real-time health monitoring</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="privacy">Privacy-focused design (no cameras)</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="cloudSync">Cloud synchronization</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="multiUser">Support for multiple users</span></li>
+                    </ul>
+                    
+                    <div class="product-specs">
+                        <h5 data-i18n="specifications">Specifications:</h5>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="connectivity">Connectivity:</span>
+                            <span class="spec-value">WiFi, Bluetooth, LTE</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="resolution">Resolution:</span>
+                            <span class="spec-value">1080P HD</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="warranty">Warranty:</span>
+                            <span class="spec-value">2 years</span>
+                        </div>
+                        
+                    </div>-->
+                </div>
+            </div>
+
+            <!-- Product 3: Emergency Alert System -->
+            <!--<div class="product-card">
+                <div class="product-image">
+                    <img src="Care Sense.jpg" alt="Emergency Alert System">
+                </div>
+                <div class="product-content">
+                    <h3>Emergency Alert System</h3>
+                    <p class="product-subtitle" data-i18n="emergencyResponse">Quick Response Emergency Alert Device</p>
+                    <p class="product-desc" data-i18n="emergencyDesc">A portable and easy-to-use emergency alert system that connects elderly users with family members and emergency services in seconds. Perfect for active seniors who want independence with safety.</p>
+                    
+                    <h4 data-i18n="feature">Features:</h4>
+                    <ul class="product-features">
+                        <li><span class="feature-bullet">•</span> <span data-i18n="oneButton">One-button emergency call</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="gpsTracking">GPS tracking capability</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="waterproof">Waterproof and durable</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="voiceCall">Two-way voice call</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="longBattery">Long battery life up to 30 days</span></li>
+                    </ul>
+                    
+                    <div class="product-specs">
+                        <h5 data-i18n="specifications">Specifications:</h5>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="weight">Weight:</span>
+                            <span class="spec-value">150g</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="size">Size:</span>
+                            <span class="spec-value">10cm x 7cm x 2cm</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="battery">Battery Life:</span>
+                            <span class="spec-value">Up to 30 days standby</span>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            <!-- Product 4: Health Vital Monitor -->
+            <!--<div class="product-card">
+                <div class="product-image">
+                    <img src="Care Sense.jpg" alt="Health Vital Monitor">
+                </div>
+                <div class="product-content">
+                    <h3>Health Vital Monitor</h3>
+                    <p class="product-subtitle" data-i18n="vitalSigns">Continuous Health Vital Signs Monitoring</p>
+                    <p class="product-desc" data-i18n="vitalDesc">Track heart rate, blood pressure, oxygen levels, and other vital signs continuously. Get instant alerts if any abnormalities are detected, ensuring proactive health management.</p>
+                    
+                    <h4 data-i18n="feature">Features:</h4>
+                    <ul class="product-features">
+                        <li><span class="feature-bullet">•</span> <span data-i18n="heartRate">Heart rate monitoring</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="bloodPressure">Blood pressure tracking</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="oxygenLevel">Oxygen saturation level</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="temperature">Body temperature monitoring</span></li>
+                        <li><span class="feature-bullet">•</span> <span data-i18n="historicalData">Historical data analysis</span></li>
+                    </ul>
+                    
+                    <div class="product-specs">
+                        <h5 data-i18n="specifications">Specifications:</h5>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="sensors">Sensors:</span>
+                            <span class="spec-value">Multi-sensor array (5 sensors)</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="accuracy">Accuracy:</span>
+                            <span class="spec-value">±2% for vital signs</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-i18n="storage">Data Storage:</span>
+                            <span class="spec-value">6 months of data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="contact-cta">
+        <div class="cta-content">
+            <h3 data-i18n="interestedInProducts">Interested in our products?</h3>
+            <p data-i18n="contactForDemo">Contact us for a demonstration or more information</p>
+            <a href="index.html#contact" class="cta-button" data-i18n="contactUsNow">Contact Us Now</a>
+        </div>
+    </section>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

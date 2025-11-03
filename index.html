@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovia System & Solution - Because Every Life Matters</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web\css\all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <img src="Hovia_logo.png" alt="Hovia Logo" class="logo-image">
+            </a>
+            <ul>
+                <li><a href="#home" data-i18n="home">Home</a></li>
+                <li><a href="#products" data-i18n="products">Products</a></li>
+                <li><a href="#about" data-i18n="aboutUs">About Us</a></li>
+                <li><a href="#contact" data-i18n="contactUs">Contact Us</a></li>
+                <li>
+                    <select class="lang-dropdown" onchange="changeLanguage(this.value)">
+                        <option value="en">🇺🇸 English</option>
+                        <option value="th" selected>🇹🇭 ไทย</option>
+                        <!--<option value="ja">🇯🇵 日本語</option>
+                        <option value="zh">🇨🇳 中文</option>
+                        <option value="ko">🇰🇷 한국어</option>-->
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Hovia System & Solution</h2>
+            <p style="text-align: justify;" data-i18n="heroDescription">Hovia System and Solution is dedicated to developing and providing IoT systems for elderly care, with the goal of creating a safe and secure environment for the elderly. Our products are thoughtfully designed to meet the needs of elderly care homes, rehabilitation centers, hospitals, and general consumers. We aim to deliver reliable and user-friendly technology that enhances the quality of life for the elderly, now and in the future.</p>
+        </div>
+        <div class="hero-image">
+            <img src="Home_pic.jpg" alt="Picture">
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="mission-container">
+            <h2 data-i18n="ourMission">Our Mission</h2>
+            <p data-i18n="missionDescription">At Hovia System and Solution, we create smart IoT systems that empower elderly care with safety and peace of mind. Our mission is to innovate technology that enhances quality of life, making intelligent care accessible for homes, healthcare centers, and beyond. We are committed to building a safer, more connected world for the elderly through compassionate and reliable solutions.</p>
+        </div>
+    </section>
+
+    <!-- Care Sense Section -->
+    <section class="care-sense" id="products">
+        <div class="care-sense-wrapper">
+            <div class="care-sense-left">
+                <h3 data-i18n="product">Product</h3>
+                <div class="care-sense-image">
+                    <img src="Care Sense.jpg" alt="Picture">
+                </div>
+                <a href="products.html" class="view-more-btn" data-i18n="viewMore">more Products</a>
+            </div>
+            <div class="care-sense-box">
+                <h3>Care Sense</h3>
+                <h4 data-i18n="whatIsCare">What is Care Sense?</h4>
+                <p style="margin-bottom: 1.5rem;text-align: justify;" data-i18n="careDescription">
+                    Care Sense is a non-wearable fall detection device that combines IoT technology with compassionate elderly care. 
+                    Our system detects falls within 15 seconds and immediately alerts family members and caregivers through mobile 
+                    applications and speaker notifications. Unlike traditional wearable solutions, Care Sense requires no devices to be worn, 
+                    making it the perfect choice for active seniors who prioritize comfort and independence.
+                </p>
+                <div>
+                    <h5 style="margin-bottom: 1rem; font-size: 1rem;" data-i18n="feature">Feature:</h5>
+                    <div class="features">
+                        <div class="feature-item">
+                            <span class="feature-bullet">•</span>
+                            <span data-i18n="noCamera">No camera</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">•</span>
+                            <span data-i18n="alert">Alert by speaker and mobile application</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">•</span>
+                            <span data-i18n="battery">Batter usage 1 week/cycle</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">•</span>
+                            <span data-i18n="internet">Still work without internet</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">•</span>
+                            <span data-i18n="seconds">Alert in 15 seconds after fall is detected</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="about">
+        <div class="team-container">
+            <h2 data-i18n="ourTeam">Our team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="Co_founder_picture/me.png" alt="Thanakorn Vachirabenjapong">
+                    </div>
+                    <h4>Thanakorn Vachirabenjapong</h4>
+                    <p data-i18n="ceo">Chief Executive Officer (CEO)</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="Co_founder_picture/Gamma.png" alt="Pavin Ubolchitt">
+                    </div>
+                    <h4>Pavin Ubolchitt</h4>
+                    <p data-i18n="cto">Chief Technology Officer (CTO)</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="Co_founder_picture/Gag.png" alt="Thanakrit Suratanachaiboonlert">
+                    </div>
+                    <h4>Thanakrit Suratanachaiboonlert</h4>
+                    <p data-i18n="cfo">Chief Financial Officer (CFO)</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="Co_founder_picture/first.png" alt="Siwakorn Pinyokijanan">
+                    </div>
+                    <h4>Siwakorn Pinyokijanan</h4>
+                    <p data-i18n="coo">Chief Operating Officer (COO)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Section -->
+    <!--<section class="partner">
+        <h2>Partner</h2>
+    </section>-->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3 data-i18n="contactInfo">Contact us</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name" data-i18n="nameLabel">Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" data-i18n="companyLabel">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="emailLabel">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="messageLabel">Write a message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-i18n="send">Send</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3 data-i18n="contactInfoTitle">Contact info</h3>
+                <div class="info-item">
+                    <strong data-i18n="phoneLabel">Phone:</strong><br>
+                    <a href="tel:+66972899156">(+66) 97-289-9156</a>
+                </div>
+                <div class="info-item">
+                    <strong data-i18n="emailLabel2">Email:</strong><br>
+                    <a href="mailto:sale.hovia@gmail.com">sale.hovia@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <strong data-i18n="addressLabel">Address:</strong><br>
+                    989/149 THE ELEGANCE Phetkasem 81<br>
+                    Nong Khaem Subdistrict, Nong Khaem District,<br>
+                    Bangkok 10160
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://line.me" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-line"></i>
+                    </a>
+                    <a href="https://www.tiktok.com" class="social-icon" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
