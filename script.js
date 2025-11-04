@@ -29,6 +29,10 @@ if (contactForm) {
             message: document.getElementById('message').value
         };
 
+        if (company == ""){
+            company = document.getElementById('name').value;
+        }
+
         // Validate form
         if (!formData.name || !formData.email) {
             alert('Please fill in all required fields');
