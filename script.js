@@ -45,8 +45,9 @@ if (contactForm) {
         // Send email using Email.js
         emailjs.send('service_mm4tcka', 'template_zkxgw1m', {
             to_email: 'thanakorn.vac@gmail.com',
-            from_name: formData.name,
+            name: formData.name,
             from_email: formData.email,
+            email: formData.email,
             company: formData.company,
             message: formData.message
         }).then(

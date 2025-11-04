@@ -146,7 +146,7 @@
         <div class="contact-container">
             <div class="contact-form">
                 <h3 data-i18n="contactInfo">Contact us</h3>
-                <form>
+                <form id="contactForm" method="POST">
                     <div class="form-group">
                         <label for="name" data-i18n="nameLabel">Name*</label>
                         <input type="text" id="name" name="name" required>
@@ -199,6 +199,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
