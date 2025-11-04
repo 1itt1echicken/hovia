@@ -15,6 +15,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Form submission handling
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
+    // Initialize Email.js (change 'YOUR_PUBLIC_KEY' to your actual public key)
+    emailjs.init('5g1HLhp57QagSVcj2');
+
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
         
@@ -39,11 +42,23 @@ if (contactForm) {
             return;
         }
 
-        // Show success message
-        alert(`Thank you, ${formData.name}! Your message has been sent successfully. We will get back to you soon.`);
-        
-        // Reset form
-        contactForm.reset();
+        // Send email using Email.js
+        emailjs.send('service_mm4tcka', 'template_zkxgw1m', {
+            to_email: 'thanakorn.vac@gmail.com',
+            from_name: formData.name,
+            from_email: formData.email,
+            company: formData.company,
+            message: formData.message
+        }).then(
+            function(response) {
+                alert(`Thank you, ${formData.name}! Your message has been sent successfully. We will get back to you soon.`);
+                contactForm.reset();
+            },
+            function(error) {
+                alert('Failed to send message. Please try again later.');
+                console.error('Email error:', error);
+            }
+        );
     });
 }
 
