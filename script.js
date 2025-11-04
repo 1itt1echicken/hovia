@@ -29,8 +29,8 @@ if (contactForm) {
             message: document.getElementById('message').value
         };
 
-        if (company == ""){
-            company = document.getElementById('name').value;
+        if (!formData.company){
+            formData.company = formData.name;
         }
 
         // Validate form
